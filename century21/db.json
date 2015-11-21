@@ -1,0 +1,1056 @@
+[
+{
+  "pk": 1,
+  "model": "auth.user",
+  "fields": {
+    "groups": [],
+    "username": "jesus",
+    "user_permissions": [],
+    "last_login": "2015-11-13T18:10:03.015Z",
+    "email": "chuy.sc@hotmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2015-11-13T18:09:43.076Z",
+    "first_name": "",
+    "last_name": "",
+    "password": "pbkdf2_sha256$20000$WTiTY5RsP4Rk$Kh6w4nBZk1ThA1VabRH6l/nfUFRP9hLO+9knNYiAN3w=",
+    "is_superuser": true
+  }
+},
+{
+  "pk": "lm4hrdycbkyb18qizrchm1vyse9hdzsy",
+  "model": "sessions.session",
+  "fields": {
+    "session_data": "MzMzOTM3NjkwZTY2NzQzMmZlNTA1ZTlmMDBjMDA0MjkxNDVmYTkyNjp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiJmNWZiNGRlYTNiNzc5NTA2MDY0OWQwZDNlOTQxYzRjYzUyNmFlNTRmIn0=",
+    "expire_date": "2015-11-27T18:10:03.187Z"
+  }
+},
+{
+  "pk": 1,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "almac21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "ALMA ROSA CORDERO  SOTO"
+  }
+},
+{
+  "pk": 2,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "carlosgallegos2012@hotmail.com",
+    "sexo": "Hombre",
+    "nombre": "CARLOS GALLEGOS GARCIA"
+  }
+},
+{
+  "pk": 3,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "terrazas-deyanira@hotmail.com",
+    "sexo": "Mujer",
+    "nombre": "DEYANIRA TERRAZAS C."
+  }
+},
+{
+  "pk": 4,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "enmuc21@yahoo.com.mx",
+    "sexo": "Hombre",
+    "nombre": "ENRIQUE L. MU\u00d1UZURI A."
+  }
+},
+{
+  "pk": 5,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "genovevac21@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "GENOVEVA LASTRA S."
+  }
+},
+{
+  "pk": 6,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "so3c21lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "J. ANGEL SOTRES DE LOS S."
+  }
+},
+{
+  "pk": 7,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "jinfantecentury21lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "JOS\u00c9 LUIS INFANTE TAFOLLA."
+  }
+},
+{
+  "pk": 8,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "juanmanuelc21lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "JUAN MANUEL SALINAS T."
+  }
+},
+{
+  "pk": 9,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "lorenac21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "LORENA BARAJAS VERA"
+  }
+},
+{
+  "pk": 10,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "lettysc21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "MA.LETICIA ESPINOZA V."
+  }
+},
+{
+  "pk": 11,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "maribelc21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "MARIBEL VILCHIS PALACIOS"
+  }
+},
+{
+  "pk": 12,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "marthac21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "MARTHA VALENZUELA L."
+  }
+},
+{
+  "pk": 13,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "mercedesc21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "MERCEDES HDEZ. RGUEZ"
+  }
+},
+{
+  "pk": 14,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "olandafi@hotmail.com",
+    "sexo": "Mujer",
+    "nombre": "ODILA LANDA FIGUEROA"
+  }
+},
+{
+  "pk": 15,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "patriciac21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "PATRICIA GARCIA MEDINA"
+  }
+},
+{
+  "pk": 16,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "perlac21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "PERLA OLIVA LOYO LEYVA"
+  }
+},
+{
+  "pk": 17,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "pguillenc21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "PETRA GUILLEN MAGA\u00d1A"
+  }
+},
+{
+  "pk": 18,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "jimenez.century21.lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "SALVADOR JIMENEZ RAMIREZ"
+  }
+},
+{
+  "pk": 19,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "maric21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "MARICARMEN SALGADO M."
+  }
+},
+{
+  "pk": 20,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "manuelc21lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "MANUEL GONZALEZ RIVERO"
+  }
+},
+{
+  "pk": 21,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "carloslacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "CARLOS LACUNZA"
+  }
+},
+{
+  "pk": 22,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "saulc21lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "SAUL FCO. CHAVARRIA I."
+  }
+},
+{
+  "pk": 23,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "reinac21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "REINA GLEZ.FOMBONA"
+  }
+},
+{
+  "pk": 24,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "hectorc21lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "HECTOR  VELEZ AVILA"
+  }
+},
+{
+  "pk": 25,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "Lozanoc21lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "MANUEL LOZANO SERRANO"
+  }
+},
+{
+  "pk": 26,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "carmenc21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "CARMEN RAMOS"
+  }
+},
+{
+  "pk": 27,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "azucenac21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "AZUCENA RAMOS RODRIGUEZ"
+  }
+},
+{
+  "pk": 28,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "banchezc21lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "EDUARDO BANCHEZ VALENTE"
+  }
+},
+{
+  "pk": 29,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "isabelc21lacunza@gmail.com",
+    "sexo": "Mujer",
+    "nombre": "ISABEL ALVARADO R\u00cdOS"
+  }
+},
+{
+  "pk": 30,
+  "model": "marketing.asesore",
+  "fields": {
+    "email": "jesusmarinac21lacunza@gmail.com",
+    "sexo": "Hombre",
+    "nombre": "JESUS DE LA SANCHA MARINA"
+  }
+},
+{
+  "pk": 1,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7442122500",
+    "asesor": 1
+  }
+},
+{
+  "pk": 2,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": " 2168773",
+    "asesor": 1
+  }
+},
+{
+  "pk": 3,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "62*204389*1",
+    "asesor": 1
+  }
+},
+{
+  "pk": 4,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "74 41 06 33 80",
+    "asesor": 2
+  }
+},
+{
+  "pk": 5,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7445082465",
+    "asesor": 3
+  }
+},
+{
+  "pk": 6,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "1009264",
+    "asesor": 3
+  }
+},
+{
+  "pk": 7,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "62*13*35008",
+    "asesor": 3
+  }
+},
+{
+  "pk": 8,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7441061331",
+    "asesor": 4
+  }
+},
+{
+  "pk": 9,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "1005219",
+    "asesor": 5
+  }
+},
+{
+  "pk": 10,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "52*289222*2",
+    "asesor": 5
+  }
+},
+{
+  "pk": 11,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7442096598",
+    "asesor": 6
+  }
+},
+{
+  "pk": 12,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7445854464",
+    "asesor": 7
+  }
+},
+{
+  "pk": 13,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7441234793",
+    "asesor": 8
+  }
+},
+{
+  "pk": 14,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7444635878",
+    "asesor": 9
+  }
+},
+{
+  "pk": 15,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7445469219",
+    "asesor": 10
+  }
+},
+{
+  "pk": 16,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "4404062",
+    "asesor": 11
+  }
+},
+{
+  "pk": 17,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "72*13*55800",
+    "asesor": 11
+  }
+},
+{
+  "pk": 18,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7444096151",
+    "asesor": 12
+  }
+},
+{
+  "pk": 19,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "1000892",
+    "asesor": 12
+  }
+},
+{
+  "pk": 20,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "52*142741*2",
+    "asesor": 12
+  }
+},
+{
+  "pk": 21,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7442050439",
+    "asesor": 13
+  }
+},
+{
+  "pk": 22,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7445871010",
+    "asesor": 14
+  }
+},
+{
+  "pk": 23,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7445867057",
+    "asesor": 15
+  }
+},
+{
+  "pk": 24,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7444020226",
+    "asesor": 16
+  }
+},
+{
+  "pk": 25,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "2188604",
+    "asesor": 16
+  }
+},
+{
+  "pk": 26,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "92*11*73902",
+    "asesor": 16
+  }
+},
+{
+  "pk": 27,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7445879807",
+    "asesor": 17
+  }
+},
+{
+  "pk": 28,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7444078244",
+    "asesor": 18
+  }
+},
+{
+  "pk": 29,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "2497020",
+    "asesor": 18
+  }
+},
+{
+  "pk": 30,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7441039033",
+    "asesor": 19
+  }
+},
+{
+  "pk": 31,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "4460778",
+    "asesor": 19
+  }
+},
+{
+  "pk": 32,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7444636536",
+    "asesor": 20
+  }
+},
+{
+  "pk": 33,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "2493532",
+    "asesor": 20
+  }
+},
+{
+  "pk": 34,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7441578866",
+    "asesor": 21
+  }
+},
+{
+  "pk": 35,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "1108537",
+    "asesor": 21
+  }
+},
+{
+  "pk": 36,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "72*632757*6",
+    "asesor": 21
+  }
+},
+{
+  "pk": 37,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7442530255",
+    "asesor": 22
+  }
+},
+{
+  "pk": 38,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "2174799",
+    "asesor": 22
+  }
+},
+{
+  "pk": 39,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7441818474",
+    "asesor": 23
+  }
+},
+{
+  "pk": 40,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7441132652",
+    "asesor": 24
+  }
+},
+{
+  "pk": 41,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7811003265",
+    "asesor": 25
+  }
+},
+{
+  "pk": 42,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7442286117",
+    "asesor": 26
+  }
+},
+{
+  "pk": 43,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7441388529",
+    "asesor": 27
+  }
+},
+{
+  "pk": 44,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7442358916",
+    "asesor": 28
+  }
+},
+{
+  "pk": 45,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": "7441765946",
+    "asesor": 29
+  }
+},
+{
+  "pk": 46,
+  "model": "marketing.telefono",
+  "fields": {
+    "numero": " 7442441790",
+    "asesor": 30
+  }
+},
+{
+  "pk": 1,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "ALMA ROSA CORDERO  SOTO",
+    "object_id": "1",
+    "action_time": "2015-11-13T18:11:57.353Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 2,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "CARLOS GALLEGOS GARCIA",
+    "object_id": "2",
+    "action_time": "2015-11-13T18:17:56.747Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 3,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "DEYANIRA TERRAZAS C.",
+    "object_id": "3",
+    "action_time": "2015-11-13T18:18:45.634Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 4,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "ENRIQUE L. MU\u00d1UZURI A.",
+    "object_id": "4",
+    "action_time": "2015-11-13T18:19:21.251Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 5,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "GENOVEVA LASTRA S.",
+    "object_id": "5",
+    "action_time": "2015-11-13T18:20:02.948Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 6,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "J. ANGEL SOTRES DE LOS S.",
+    "object_id": "6",
+    "action_time": "2015-11-13T18:21:56.590Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 7,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "JOS\u00c9 LUIS INFANTE TAFOLLA.",
+    "object_id": "7",
+    "action_time": "2015-11-13T18:22:29.334Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 8,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "JUAN MANUEL SALINAS T.",
+    "object_id": "8",
+    "action_time": "2015-11-13T18:25:43.483Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 9,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "LORENA BARAJAS VERA",
+    "object_id": "9",
+    "action_time": "2015-11-13T18:26:08.439Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 10,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "MA.LETICIA ESPINOZA V.",
+    "object_id": "10",
+    "action_time": "2015-11-13T18:26:40.118Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 11,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "MARIBEL VILCHIS PALACIOS",
+    "object_id": "11",
+    "action_time": "2015-11-13T18:27:09.895Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 12,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "MARTHA VALENZUELA L.",
+    "object_id": "12",
+    "action_time": "2015-11-13T18:27:51.063Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 13,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "MERCEDES HDEZ. RGUEZ",
+    "object_id": "13",
+    "action_time": "2015-11-13T18:28:18.468Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 14,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "ODILA LANDA FIGUEROA",
+    "object_id": "14",
+    "action_time": "2015-11-13T18:28:45.254Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 15,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "PATRICIA GARCIA MEDINA",
+    "object_id": "15",
+    "action_time": "2015-11-13T18:30:31.360Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 16,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "PERLA OLIVA LOYO LEYVA",
+    "object_id": "16",
+    "action_time": "2015-11-13T18:30:59.835Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 17,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "PETRA GUILLEN MAGA\u00d1A",
+    "object_id": "17",
+    "action_time": "2015-11-13T18:31:36.068Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 18,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "SALVADOR JIMENEZ RAMIREZ",
+    "object_id": "18",
+    "action_time": "2015-11-13T18:32:01.965Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 19,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "MARICARMEN SALGADO M.",
+    "object_id": "19",
+    "action_time": "2015-11-13T18:33:25.585Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 20,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "MANUEL GONZALEZ RIVERO",
+    "object_id": "20",
+    "action_time": "2015-11-13T18:40:32.872Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 21,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "CARLOS LACUNZA",
+    "object_id": "21",
+    "action_time": "2015-11-13T18:41:11.207Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 22,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "SAUL FCO. CHAVARRIA I.",
+    "object_id": "22",
+    "action_time": "2015-11-13T18:41:39.864Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 23,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "REINA GLEZ.FOMBONA",
+    "object_id": "23",
+    "action_time": "2015-11-13T18:42:16.598Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 24,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "HECTOR  VELEZ AVILA",
+    "object_id": "24",
+    "action_time": "2015-11-13T18:42:41.838Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 25,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "MANUEL LOZANO SERRANO",
+    "object_id": "25",
+    "action_time": "2015-11-13T18:43:08.353Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 26,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "CARMEN RAMOS",
+    "object_id": "26",
+    "action_time": "2015-11-13T18:43:34.962Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 27,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "AZUCENA RAMOS RODRIGUEZ",
+    "object_id": "27",
+    "action_time": "2015-11-13T18:43:58.246Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 28,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "EDUARDO BANCHEZ VALENTE",
+    "object_id": "28",
+    "action_time": "2015-11-13T18:44:23.303Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 29,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "ISABEL ALVARADO R\u00cdOS",
+    "object_id": "29",
+    "action_time": "2015-11-13T18:44:44.362Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "pk": 30,
+  "model": "admin.logentry",
+  "fields": {
+    "content_type": 8,
+    "object_repr": "JESUS DE LA SANCHA MARINA",
+    "object_id": "30",
+    "action_time": "2015-11-13T18:45:05.112Z",
+    "user": 1,
+    "action_flag": 1,
+    "change_message": ""
+  }
+}
+]

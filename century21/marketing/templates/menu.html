@@ -1,0 +1,39 @@
+{% extends "base.html"%}
+{% block body %}
+{% load staticfiles %}
+<br><br>
+<div class="container">
+<div class="row">
+	<div class="col-md-4">
+	 <center>
+		<div class="animated zoomIn" id="iconos">
+			<a href="directorio" class="waves-effect waves-light">
+				<img src="{% static 'images/address-book.png'%}" alt="">
+				<h4>Directorio</h4>
+			</a>
+		</div>
+	</center>
+	</div>
+	<div class="col-md-4">
+	<center>
+		<div class="animated zoomIn" id="iconos">
+			<a href="" class="waves-effect waves-light">
+				<img src="{% static 'images/statistic.png'%}" alt="">
+				<h4>Estadisticas</h4>
+			</a>  
+		</div>
+	</center>
+	</div>
+	<div class="col-md-4">
+	<center>
+		<div class="animated zoomIn" id="iconos">
+			<a href="asesores" class="waves-effect waves-light">
+				<img src="{% static 'images/asesor.png'%}" alt="">
+				<h4>Asesores</h4>
+			</a>  
+		</div>
+	</center>
+	</div>
+</div>
+</div>
+{% endblock%}
