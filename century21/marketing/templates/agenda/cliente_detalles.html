@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="container">
+	<!-- Ruta -->
+	<ol class="breadcrumb">
+		<li><a href="/marketing">Marketing</a></li>
+		<li><a href="/marketing/directorio">Directorio</a></li>
+		<li><a href="/marketing/directorio/cliente/{{pk}}">Cliente</a></li>
+	</ol>
+	<br>
+	<h4>Detalles del Cliente</h4>
+	<hr>
+	<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">>Datos Generales</h3>
+	</div>
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-md-4">
+				<p class="lead">Nombre:</p> <p class="info">{{cliente}}</p>
+			</div>
+			<div class="col-md-4">
+				<p class="lead">Teléfono(s):</p> 
+					<p class="info">{{cliente.telefono_1}}
+						{% if cliente.telefono_2 %}
+							- {{cliente.telefono_2}}
+						{% endif %}
+					</p>
+			</div>
+			<div class="col-md-4">
+				<p class="lead">Email:</p> <p class="info">{{cliente.email}}</p>
+			</div>
+		</div>
+		<div class="row">
+			{% if cliente.calle %}
+			<div class="col-md-4">
+				<p class="lead">Dirección:</p>
+				<p class="info">{{cliente.calle}} {{cliente.colonia}} </p>
+			</div>
+			{% endif %}
+
+			{% if cliente.municipio %}
+			<div class="col-md-3">
+				<p class="lead">Municipio:</p>
+				<p class="info">{{cliente.municipio}}</p>
+			</div>
+			{% endif %}
+
+			{% if cliente.estado %}
+			<div class="col-md-3">
+				<p class="lead">Estado:</p>
+				<p class="info">{{cliente.estado}}</p>
+			</div>
+			{% endif %}
+
+			{% if cliente.codigo_postal %}
+			<div class="col-md-2">
+				<p class="lead">CP:</p>
+				<p class="info">{{cliente.codigo_postal}}</p>
+			</div>
+			{% endif %}
+		</div>	
+		</div>
+	</div>	
+	</div>
+{% endblock %}

@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block body %}
+{% load staticfiles %}
+<div class="container" >
+	
+	<!-- Ruta -->
+	<ol class="breadcrumb">
+		<li><a href="/marketing">Marketing</a></li>
+		<li><a href="/marketing/asesores">Asesores</a></li>
+	</ol>
+
+	<!-- Introduccion -->
+	<div class="row">
+		<div class="col-lg-12">
+			<h4 class="page-header">Agenda de Asesores</h4>
+		</div>
+	</div>
+
+	<!-- Menu Tabs -->
+	<ul class="nav nav-pills">
+		<li class="active">
+			<a data-toggle="tab" href="#vista1">Vista Simple</a>
+		</li>
+		<li role="presentation" class="dropdown">
+    		<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Menú <span class="caret"></span>
+    		</a>
+    		<ul class="dropdown-menu">
+      			 <li><a href="">Buscar</a></li>
+    		</ul>
+  		</li>
+	</ul>
+	
+	<!-- Contenido Tabs-->
+	<div class="tab-content">
+		<!-- Vista Simple de Contactos -->
+		<div id="vista1" class="tab-pane fade in active">
+		<br/><br/>
+		<div class="table-responsive">
+			<table class="table table-hover" id="tabla">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Nombre</th>
+						<th>Email</th>
+						<th>Opciones</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for asesore in asesores_list %}
+					<tr>
+						<td> {{ asesore.id }} </td>
+						<td> {{ asesore}} </td>
+						<td> {{ asesore.email}} </td>
+						<td>
+							<a href="{% url 'asesor_detalles' pk=asesore.id %}" role="button" class="btn btn-primary btn-xs"> 
+								<i class="fa fa-info-circle fa-lg"></i> Detalles </a>
+						</td>
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+		</div>
+	</div>
+	<hr>
+</div>
+{% endblock %}
