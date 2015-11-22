@@ -25,9 +25,6 @@ def Cliente_detalles(request,pk):
 
 	return render_to_response('agenda/cliente_detalles.html',dict_cliente)
 
-'''
-	 <<<< --------------------------------------------- >>>>
-'''
 
 
 '''
@@ -39,25 +36,13 @@ class AsesorListView(ListView):
     context_object_name = "asesores_list"
 
 def Asesor_detalles(request,pk):
-	asesor = Telefono.objects.filter(pk=int(pk))
+	telefonos = Telefono.objects.filter(asesor_id=int(pk))
+	asesor = Asesore.objects.get(pk=int(pk))
 
-	dict_asesor = dict(asesor=asesor, pk=pk)
+	lista_telefonos = []
+	for item in telefonos:
+		lista_telefonos.append(item.numero)
+	
+	dict_asesor = dict(asesor=asesor,lista_telefonos = lista_telefonos, pk=pk)
 
 	return render_to_response('asesores/asesor_detalles.html',dict_asesor)
-
-
-'''
-	 <<<< --------------------------------------------- >>>>
-'''
-
-
-'''
-def Cliente_editar(request,pk):
-	cliente = ""
-
-	cliente = Cliente.objects.get(pk=int(pk))
-	dict_cliente = dict(cliente = cliente, pk=pk)
-	dict_cliente.update(csrf(request))
-
-	return render_to_response('agenda/cliente_edit.html', dict_cliente)
-'''

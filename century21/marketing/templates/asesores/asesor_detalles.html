@@ -5,7 +5,7 @@
 	<ol class="breadcrumb">
 		<li><a href="/marketing">Marketing</a></li>
 		<li><a href="/marketing/asesores">Asesores</a></li>
-		<li><a href="/marketing/Asesores/Detalles/{{pk}}">Asesor</a></li>
+		<li><a href="/marketing/asesores/detalles/{{pk}}">Asesor</a></li>
 	</ol>
 	<br>
 	<h4>Detalles del Asesor</h4>
@@ -16,7 +16,20 @@
 	</div>
 	<div class="panel-body">
 		<div class="row">
-			{{asesor.numero}}
+			<div class="col-md-6">
+				<p class="lead">Nombre:</p> <p class="info">{{asesor}}</p>
+			</div>
+			<div class="col-md-6">
+				<p class="lead">Email:</p> <p class="info">{{asesor.email}}</p>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+		{% for telefono in lista_telefonos %}
+		<div class="col-md-4">	
+			<p class="lead">Teléfono:</p> <p class="info">{{telefono}}</p>
+		</div>
+		{% endfor %}
 		</div>
 	</div>
 	</div>
