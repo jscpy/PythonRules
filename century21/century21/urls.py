@@ -16,11 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url,patterns
 from django.contrib import admin
 
-from material.frontend import urls as frontend_urls
-
-
 urlpatterns = [
     url(r'^marketing/', include("marketing.urls")),
     url(r'^admin/', include(admin.site.urls)),
-    # url(r'', include(frontend_urls)),
 ]

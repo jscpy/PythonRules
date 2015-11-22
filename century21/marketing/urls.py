@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^directorio/$', ClientesListView.as_view(),name='directorio'),
     url(r'^directorio/cliente/(?P<pk>\d+)/$', views.Cliente_detalles, name='cliente_detalles'),
     url(r'^asesores/$', AsesorListView.as_view(), name='asesores'),
+    url(r'^asesores/detalles/(?P<pk>\d+)/$', views.Asesor_detalles, name='asesor_detalles'),
 ] 

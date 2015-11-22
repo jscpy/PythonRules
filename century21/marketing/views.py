@@ -2,7 +2,7 @@ from django.shortcuts import render, render_to_response, HttpResponse
 from django.views.generic import TemplateView, ListView
 from django.core.context_processors import csrf
 
-from marketing.models import Cliente, Asesore
+from marketing.models import Cliente, Asesore, Telefono
 
 class Menu(TemplateView):
     template_name = "menu.html"
@@ -37,6 +37,14 @@ class AsesorListView(ListView):
     model = Asesore
     template_name = "asesores/asesor_list.html"
     context_object_name = "asesores_list"
+
+def Asesor_detalles(request,pk):
+	asesor = Telefono.objects.filter(pk=int(pk))
+
+	dict_asesor = dict(asesor=asesor, pk=pk)
+
+	return render_to_response('asesores/asesor_detalles.html',dict_asesor)
+
 
 '''
 	 <<<< --------------------------------------------- >>>>

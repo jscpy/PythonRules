@@ -6,7 +6,7 @@
 	<!-- Ruta -->
 	<ol class="breadcrumb">
 		<li><a href="/marketing">Marketing</a></li>
-		<li><a href="/marketing/Asesores">Asesores</a></li>
+		<li><a href="/marketing/asesores">Asesores</a></li>
 	</ol>
 
 	<!-- Introduccion -->
@@ -17,10 +17,17 @@
 	</div>
 
 	<!-- Menu Tabs -->
-	<ul class="nav nav-tabs">
+	<ul class="nav nav-pills">
 		<li class="active">
 			<a data-toggle="tab" href="#vista1">Vista Simple</a>
 		</li>
+		<li role="presentation" class="dropdown">
+    		<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Menú <span class="caret"></span>
+    		</a>
+    		<ul class="dropdown-menu">
+      			 <li><a href="">Buscar</a></li>
+    		</ul>
+  		</li>
 	</ul>
 	
 	<!-- Contenido Tabs-->
@@ -45,7 +52,7 @@
 						<td> {{ asesore}} </td>
 						<td> {{ asesore.email}} </td>
 						<td>
-							<a href="" role="button" class="btn btn-primary btn-xs"> 
+							<a href="{% url 'asesor_detalles' pk=asesore.id %}" role="button" class="btn btn-primary btn-xs"> 
 								<i class="fa fa-info-circle fa-lg"></i> Detalles </a>
 						</td>
 					</tr>
