@@ -1,0 +1,26 @@
+{% extends 'index.html' %}
+{% block body %}
+<a href="{% url 'genPDF' %}" role="button" class="btn btn-primary">Generar PDF</a>
+<br>
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>Nombre</th>
+			<th>Departamento</th>
+			<th>Presupuesto</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% for empleado in empleados%}
+		<tr>
+			<td>{{empleado.clave}}</td>
+			<td>{{empleado.nombre}} {{empleado.apellidos}}</td>
+			<td>{{empleado.departamento__nombre}}</td>
+			<td>{{empleado.departamento__presupuesto}}</td>
+		</tr>
+	{% endfor %}
+	</tbody>
+</table>
+
+{% endblock %}

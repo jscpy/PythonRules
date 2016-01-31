@@ -1,0 +1,1244 @@
+[
+{
+  "model": "tienda_informatica.fabricante",
+  "pk": 1,
+  "fields": {
+    "nombre": "Toshiba"
+  }
+},
+{
+  "model": "tienda_informatica.fabricante",
+  "pk": 2,
+  "fields": {
+    "nombre": "HP"
+  }
+},
+{
+  "model": "tienda_informatica.fabricante",
+  "pk": 3,
+  "fields": {
+    "nombre": "Lenovo"
+  }
+},
+{
+  "model": "tienda_informatica.fabricante",
+  "pk": 4,
+  "fields": {
+    "nombre": "Acer"
+  }
+},
+{
+  "model": "tienda_informatica.fabricante",
+  "pk": 5,
+  "fields": {
+    "nombre": "Dell"
+  }
+},
+{
+  "model": "tienda_informatica.fabricante",
+  "pk": 6,
+  "fields": {
+    "nombre": "Independiente"
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 1,
+  "fields": {
+    "nombre": "Satellite",
+    "precio": 2000,
+    "fabricante": 1
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 2,
+  "fields": {
+    "nombre": "Portege",
+    "precio": 7800,
+    "fabricante": 1
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 3,
+  "fields": {
+    "nombre": "Tecra",
+    "precio": 10000,
+    "fabricante": 1
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 4,
+  "fields": {
+    "nombre": "Pavilion Gaming",
+    "precio": 7500,
+    "fabricante": 2
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 5,
+  "fields": {
+    "nombre": "PC Notebook",
+    "precio": 6800,
+    "fabricante": 2
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 6,
+  "fields": {
+    "nombre": "Chromebook",
+    "precio": 5500,
+    "fabricante": 2
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 7,
+  "fields": {
+    "nombre": "Y50",
+    "precio": 18900,
+    "fabricante": 3
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 8,
+  "fields": {
+    "nombre": "Z50",
+    "precio": 11900,
+    "fabricante": 3
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 9,
+  "fields": {
+    "nombre": "Thinkpad X1",
+    "precio": 24000,
+    "fabricante": 3
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 10,
+  "fields": {
+    "nombre": "Thinkpad T540",
+    "precio": 19600,
+    "fabricante": 3
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 11,
+  "fields": {
+    "nombre": "Yoga 12",
+    "precio": 17400,
+    "fabricante": 3
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 12,
+  "fields": {
+    "nombre": "Aspire R",
+    "precio": 6900,
+    "fabricante": 4
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 13,
+  "fields": {
+    "nombre": "Aspire V Nitro",
+    "precio": 17300,
+    "fabricante": 4
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 14,
+  "fields": {
+    "nombre": "Aspire S",
+    "precio": 11600,
+    "fabricante": 4
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 15,
+  "fields": {
+    "nombre": "Aspire Switch",
+    "precio": 10100,
+    "fabricante": 4
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 16,
+  "fields": {
+    "nombre": "Aspire E",
+    "precio": 14000,
+    "fabricante": 4
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 17,
+  "fields": {
+    "nombre": "Aspire V",
+    "precio": 5000,
+    "fabricante": 4
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 18,
+  "fields": {
+    "nombre": "One",
+    "precio": 11000,
+    "fabricante": 4
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 19,
+  "fields": {
+    "nombre": "Inspiron",
+    "precio": 6000,
+    "fabricante": 5
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 20,
+  "fields": {
+    "nombre": "XPS",
+    "precio": 11500,
+    "fabricante": 5
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 21,
+  "fields": {
+    "nombre": "Alienware",
+    "precio": 30000,
+    "fabricante": 5
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 22,
+  "fields": {
+    "nombre": "Armable",
+    "precio": 1500,
+    "fabricante": 6
+  }
+},
+{
+  "model": "tienda_informatica.articulo",
+  "pk": 23,
+  "fields": {
+    "nombre": "Partes",
+    "precio": 1500,
+    "fabricante": 6
+  }
+},
+{
+  "model": "empresa.departamento",
+  "pk": 1,
+  "fields": {
+    "nombre": "Sistemas",
+    "presupuesto": 10000
+  }
+},
+{
+  "model": "empresa.departamento",
+  "pk": 2,
+  "fields": {
+    "nombre": "Marketing",
+    "presupuesto": 50000
+  }
+},
+{
+  "model": "empresa.departamento",
+  "pk": 3,
+  "fields": {
+    "nombre": "Ventas",
+    "presupuesto": 100000
+  }
+},
+{
+  "model": "empresa.departamento",
+  "pk": 4,
+  "fields": {
+    "nombre": "Direccion",
+    "presupuesto": 30000
+  }
+},
+{
+  "model": "empresa.departamento",
+  "pk": 5,
+  "fields": {
+    "nombre": "Finanzas",
+    "presupuesto": 50000
+  }
+},
+{
+  "model": "empresa.departamento",
+  "pk": 6,
+  "fields": {
+    "nombre": "Juridica",
+    "presupuesto": 65000
+  }
+},
+{
+  "model": "empresa.departamento",
+  "pk": 7,
+  "fields": {
+    "nombre": "Atencion al Cliente",
+    "presupuesto": 55000
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "10320766",
+  "fields": {
+    "nombre": "Ismael",
+    "apellidos": "Valle",
+    "departamento": 1
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "10320872",
+  "fields": {
+    "nombre": "Jesus",
+    "apellidos": "Solis",
+    "departamento": 1
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "10320899",
+  "fields": {
+    "nombre": "Oscar",
+    "apellidos": "Rodriguez",
+    "departamento": 1
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "11320801",
+  "fields": {
+    "nombre": "Karina",
+    "apellidos": "Palacios",
+    "departamento": 2
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "11320802",
+  "fields": {
+    "nombre": "Jair",
+    "apellidos": "Parra",
+    "departamento": 2
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "11320803",
+  "fields": {
+    "nombre": "Veronica",
+    "apellidos": "Rivas",
+    "departamento": 7
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "13320801",
+  "fields": {
+    "nombre": "Isabel",
+    "apellidos": "Alvarado",
+    "departamento": 3
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "13320802",
+  "fields": {
+    "nombre": "Enrique",
+    "apellidos": "Mu\u00f1uzuri",
+    "departamento": 3
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "14320801",
+  "fields": {
+    "nombre": "Ignacio",
+    "apellidos": "Lacunza",
+    "departamento": 4
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "14320802",
+  "fields": {
+    "nombre": "Monica",
+    "apellidos": "Garcia",
+    "departamento": 4
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "15320801",
+  "fields": {
+    "nombre": "Omali",
+    "apellidos": "Lima",
+    "departamento": 5
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "16320801",
+  "fields": {
+    "nombre": "Marcelino",
+    "apellidos": "Garcia",
+    "departamento": 6
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "16320802",
+  "fields": {
+    "nombre": "Jose",
+    "apellidos": "Gasga",
+    "departamento": 6
+  }
+},
+{
+  "model": "empresa.empleado",
+  "pk": "16320803",
+  "fields": {
+    "nombre": "Maria",
+    "apellidos": "Sanchez",
+    "departamento": 6
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "tienda_informatica",
+    "model": "fabricante"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "tienda_informatica",
+    "model": "articulo"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "empresa",
+    "model": "departamento"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "empresa",
+    "model": "empleado"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "350q0lxp7faxqk9du4vmxnoxp0p6gjlv",
+  "fields": {
+    "session_data": "Mzg4ZjgyNjMzYmEzYjE2ZWZhYTI0NWRjYTE4NWI0MjFhYTIxZTQ4Mjp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiJmYmY0NGYzMzU3Y2Y2MDAyNDQ0ODk3MDg2N2E3MTY3NmExMjMxNDFjIn0=",
+    "expire_date": "2016-01-05T01:50:33.844Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6dqd2zln6r4iescgrd5nosa6xnz389bk",
+  "fields": {
+    "session_data": "MTgyMWM2MzlkNGVhMDcyYjVkMGFiMTYyN2EyZjViOTJjZTc4NzEyNjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9oYXNoIjoiZmJmNDRmMzM1N2NmNjAwMjQ0NDg5NzA4NjdhNzE2NzZhMTIzMTQxYyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+    "expire_date": "2016-01-07T04:17:50.201Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rwqeuhotk0hss7trwirsypftq1rv2qw4",
+  "fields": {
+    "session_data": "NjczMGE1MmU2MmYyZWY3ZGUzZWI2YmI1N2Q5NTdiZDFhZTY5MmYwZjp7Il9hdXRoX3VzZXJfaGFzaCI6ImZiZjQ0ZjMzNTdjZjYwMDI0NDQ4OTcwODY3YTcxNjc2YTEyMzE0MWMiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+    "expire_date": "2016-01-04T05:00:51.524Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$rMh2cgynMP8c$y4kYGUDCMRrQW4j+do7gFXOK/qfTBlDg0oA3YPdURmU=",
+    "last_login": "2015-12-24T04:17:50.177Z",
+    "is_superuser": true,
+    "username": "jsc",
+    "first_name": "",
+    "last_name": "",
+    "email": "chuy.sc@hotmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2015-12-21T04:59:44.568Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2015-12-21T05:08:44.081Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "1 - Toshiba",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2015-12-21T05:09:12.585Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "HP",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2015-12-21T05:09:20.632Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Lenovo",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2015-12-21T05:09:42.937Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Acer",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2015-12-21T05:10:19.780Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Dell",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2015-12-21T05:11:23.732Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "1 - Laptop Satellite",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2015-12-21T05:13:12.190Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "2 - Laptop Portege",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2015-12-21T05:13:34.740Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "3 - Laptop Tecra",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2015-12-21T05:18:20.450Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "4 - Pavilion Gaming",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2015-12-21T05:18:45.093Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "5 - PC Notebook",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2015-12-21T05:19:16.275Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "6 - Chromebook",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2015-12-21T05:29:56.400Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "7 - Y50",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2015-12-21T05:30:17.136Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "8 - Z50",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2015-12-21T05:30:53.262Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "9 - Thinkpad X1",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2015-12-21T05:31:30.383Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "10 - Thinkpad T540",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2015-12-21T05:31:58.560Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "11 - Yoga 12",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2015-12-21T05:44:58.921Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "12 - Aspire R",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2015-12-21T05:45:36.394Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "13 - Aspire V Nitro",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2015-12-21T05:45:52.950Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "14 - Aspire S",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2015-12-21T05:46:16.485Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "15 - Aspire Switch",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2015-12-21T05:46:44.295Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "16 - Aspire E",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2015-12-21T05:47:08.762Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "17 - Aspire V",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2015-12-21T05:47:36.454Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "18 - One",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2015-12-21T05:51:14.437Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "19 - Inspiron",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2015-12-21T05:51:30.850Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "20 - XPS",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2015-12-21T05:52:02.133Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "21 - Alienware",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2015-12-21T05:52:34.441Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "1 - Satellite",
+    "action_flag": 2,
+    "change_message": "Modifica nombre."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2015-12-21T05:52:46.692Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "2 - Portege",
+    "action_flag": 2,
+    "change_message": "Modifica nombre."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2015-12-21T05:52:55.786Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "3 - Tecra",
+    "action_flag": 2,
+    "change_message": "Modifica nombre."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2015-12-22T01:51:57.770Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Independiente",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2015-12-22T01:52:03.065Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Independiente - Armable",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2015-12-22T01:52:48.905Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Independiente - Partes",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2015-12-24T04:51:32.208Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "1 - Sistemas",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2015-12-24T04:51:44.376Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "2 - Marketing",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2015-12-24T04:52:02.124Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "3 - Ventas",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2015-12-24T04:52:13.816Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "4 - Direccion",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2015-12-24T04:52:52.360Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "5 - Finanzas",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2015-12-24T04:53:10.195Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "6 - Juridica",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2015-12-24T04:53:35.290Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "7 - Atencion al Cliente",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2015-12-24T05:30:14.217Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10320872",
+    "object_repr": "Jesus Solis",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2015-12-24T05:42:12.371Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10320766",
+    "object_repr": "Ismael Valle",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2015-12-24T05:50:15.426Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10320899",
+    "object_repr": "Oscar Rodriguez",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2015-12-24T05:59:25.720Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11320801",
+    "object_repr": "Karina Palacios",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2015-12-24T06:00:05.046Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11320802",
+    "object_repr": "Jair Parra",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2015-12-24T06:01:30.199Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11320803",
+    "object_repr": "Veronica Rivas",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2015-12-24T06:05:25.696Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13320801",
+    "object_repr": "Isabel Alvarado",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2015-12-24T06:05:58.636Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13320802",
+    "object_repr": "Enrique Mu\u00f1uzuri",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2015-12-24T06:11:57.649Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14320801",
+    "object_repr": "Ignacio Lacunza",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2015-12-24T06:12:14.449Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14320802",
+    "object_repr": "Monica Garcia",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2015-12-24T06:13:59.321Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16320801",
+    "object_repr": "Marcelino Garcia",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2015-12-24T06:14:17.710Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16320802",
+    "object_repr": "Jose Gasga",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2015-12-24T06:14:36.705Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16320803",
+    "object_repr": "Maria Sanchez",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2015-12-24T06:15:00.527Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15320801",
+    "object_repr": "Omali Lima",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+}
+]
