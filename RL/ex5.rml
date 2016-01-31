@@ -1,0 +1,34 @@
+<!DOCTYPE document SYSTEM "rml.dtd">
+<document filename="example_05.pdf">
+	<template showBoundary="1">
+	<pageTemplate id="main">
+		<pageGraphics>
+			<image file="ubuntu.png" x="450" y="700" width="100" height="100"/>
+			<image file="ubuntu.png" x="30" y="700" width="100" height="100"/>
+			<fill color="red"/>
+			<setFont name="Times-Roman" size="24"/>
+			<drawString x="250" y="700"> Hello!</drawString>
+		</pageGraphics>
+		<frame id="first" x1="100" y1="400" width="150" height="200"/>
+		<frame id="second" x1="300" y1="400" width="150" height="200"/>
+	</pageTemplate>
+	</template>
+<stylesheet>
+</stylesheet>
+<story>
+	<para>
+	This is a paragraph above an illustration.
+	</para>
+	<illustration width="150" height="150" borderStrokeWidth="1"
+	borderStrokeColor="black">
+		<image file="manjaro.png" x="0" y="0" width="150" height="150"/>
+	</illustration>
+	<para>
+		This paragraph is below the illustration. Note that if you
+		change the height and width of the illustration, the text
+		in the first paragraph may become hidden by the graphic image,
+		which overflows the borders of the illustration in which it is
+		contained.
+	</para>
+</story>
+</document>
